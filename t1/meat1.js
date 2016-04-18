@@ -3640,15 +3640,8 @@ p.nominalBounds = new cjs.Rectangle(-42.9,-42.4,86,85);
 	this.timeline.addTween(cjs.Tween.get(this.instance_76).wait(75).to({_off:false},0).to({_off:true,scaleX:1,scaleY:1,rotation:377.9,alpha:1},15,cjs.Ease.get(0.7)).wait(66));
 	this.timeline.addTween(cjs.Tween.get(this.instance_77).wait(75).to({_off:false,rotation:737.9},15,cjs.Ease.get(0.7)).to({rotation:720},9,cjs.Ease.get(0.7)).wait(57));
 
-	// 图层 28
-	this.shape_43 = new cjs.Shape();
-	this.shape_43.graphics.f("#F2C03B").s().p("EiVZBHRMAAAiOhMEqzAAAMAAACOhg");
-	this.shape_43.setTransform(952.2,452.1);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_43).wait(156));
-
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(956,446,1912.5,912.3);
+p.nominalBounds = new cjs.Rectangle(1921.8,1024.3,0.2,20);
 
 })(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var lib, images, createjs, ss;
