@@ -32,7 +32,7 @@ function handleFileLoad(evt) {
 function handleComplete(evt) {
 	var queue = evt.target;
 	ss["meat1_atlas_"] = queue.getResult("meat1_atlas_");
-	exportRoot = new lib.meat1();
+	exportRoot = new lib.meat2();
 
 	stage = new createjs.Stage(canvas);
 	stage.addChild(exportRoot);
